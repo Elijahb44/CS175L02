@@ -164,7 +164,7 @@ public class GpaCalculation {
 
 
 	            } else if (grade.equals("D-") || grade.equals("d-")) {
-	                Gp = D * credits;
+	                Gp = DMinus * credits;
 	                Totalgp += Gp;
 	                Totalcredit += credits;
 
